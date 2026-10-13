@@ -1,0 +1,5 @@
+# Optional: dense semantic embeddings and FAISS vector search.
+# Without these, SmartLab AI falls back to a hashing embedder and a NumPy index.
+-r requirements.txt
+sentence-transformers>=3.0
+faiss-cpu>=1.8

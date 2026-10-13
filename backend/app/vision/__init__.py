@@ -1,0 +1,1 @@
+"""SmartLab AI vision package."""

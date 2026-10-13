@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+backend/.venv/
+backend/instance/
+backend/instance.bak/
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite3
+
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & credentials
+.env
+.env.*
+!.env.example
+*.log
+
+# Editors & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
